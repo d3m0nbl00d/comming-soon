@@ -1,0 +1,28 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie10.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 8, ../sass/ie10.scss */
+.ie10 .countdown-show4 .countdown-section {
+  width: 21.74%;
+}
+
+@media (max-width: 1199px) {
+  /* line 17, ../sass/ie10.scss */
+  .ie10 .countdown-show4 .countdown-section {
+    width: 23.06%;
+  }
+}
+@media (max-width: 991px) {
+  /* line 27, ../sass/ie10.scss */
+  .ie10 .countdown-show4 .countdown-section {
+    width: 157px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 36, ../sass/ie10.scss */
+  .ie10 .countdown-show4 .countdown-section {
+    width: 138px;
+  }
+}
